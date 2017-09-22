@@ -25,9 +25,6 @@ public class LifecycleHandler implements Application.ActivityLifecycleCallbacks 
     @Override
     public void onActivityDestroyed(Activity activity) {
         sActivityCounter--;
-        if (isNoActivitiesAlive()) {
-            DonationManager.clearInstance();
-        }
     }
 
     @Override

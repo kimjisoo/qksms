@@ -79,8 +79,6 @@
     <string name="menu_read">Mark as read</string>
     <!--Delete a message option in menu-->
     <string name="menu_delete">Delete</string>
-    <!--Donate option in menu-->
-    <string name="menu_billing">Donate</string>
     <!--Copy text option in menu-->
     <string name="menu_copy">Copy text</string>
     <!--Changelog option in menu-->
@@ -268,8 +266,6 @@
     <string name="pref_changelog_summary">Tap to view changelog</string>
     <string name="pref_about_thanks_title">Thank you</string>
     <string name="pref_about_thanks_summary">Tap to view open-source contributors</string>
-    <string name="pref_donate_title">Donate</string>
-    <string name="pref_donate_summary">QKSMS is free. Help support us by donating!</string>
     <string name="pref_about_gplus_title">Google+</string>
     <string name="pref_about_gplus_summary">Join the QKSMS Beta Testing community on Google+</string>
     <string name="pref_about_github_title">GitHub</string>
@@ -290,26 +286,6 @@
     <!--Preference subcategory-->
     <string name="pref_subcat_avatars">Avatars</string>
 
-    <string name="donate_google">Donate with Google</string>
-    <string name="donate_google_summary">Google takes 30% of donations</string>
-    <string name="donate_paypal">Donate with PayPal</string>
-    <string name="donate_paypal_button">Donate any amount</string>
-    <string name="donate_paypal_button_summary">Buy me anything you want!</string>
-    <!--Donation product name-->
-    <string name="product_name_donation">Donation</string>
-    <!--$1 donation product name-->
-    <string name="product_name_donate_1">Donate $1 USD</string>
-    <!--$5 donation product name-->
-    <string name="product_name_donate_5">Donate $5 USD</string>
-    <!--$3 donation product name-->
-    <string name="product_name_donate_10">Donate $10 USD</string>
-    <!--$1 donation product description-->
-    <string name="product_description_donate_1">Buy me a Coke</string>
-    <!--$5 donation product description-->
-    <string name="product_description_donate_5">Buy me a sandwich</string>
-    <!--$10 donaion product description-->
-    <string name="product_description_donate_10">Buy me lunch</string>
-
     <string name="title_settings">Settings</string>
     <string name="title_search">Search</string>
     <string name="title_compose">Compose</string>
@@ -317,7 +293,6 @@
     <string name="title_blocked">Blocked</string>
     <string name="title_changelog">Changelog</string>
     <string name="title_picker">New messages</string>
-    <string name="title_donate">Donate</string>
     <string name="title_qk_responses">QK Responses</string>
     <string name="title_block_address">Block number</string>
     <string name="title_unblock_address">Unblock number</string>

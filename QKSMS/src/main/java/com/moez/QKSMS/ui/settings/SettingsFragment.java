@@ -32,7 +32,6 @@ import com.mariussoft.endlessjabber.sdk.EndlessJabberInterface;
 import com.moez.QKSMS.R;
 import com.moez.QKSMS.common.AnalyticsManager;
 import com.moez.QKSMS.common.DialogHelper;
-import com.moez.QKSMS.common.DonationManager;
 import com.moez.QKSMS.common.ListviewHelper;
 import com.moez.QKSMS.common.LiveViewManager;
 import com.moez.QKSMS.common.QKPreferences;
@@ -655,9 +654,6 @@ public class SettingsFragment extends PreferenceFragment implements Preference.O
                                     }
                                 })
                         .show();
-                break;
-            case DONATE:
-                DonationManager.getInstance(mContext).showDonateDialog();
                 break;
             case GOOGLE_PLUS:
                 startBrowserIntent(GOOGLE_PLUS_URL);

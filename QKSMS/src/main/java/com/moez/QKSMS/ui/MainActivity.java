@@ -27,7 +27,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.google.android.mms.pdu_alt.PduHeaders;
 import com.moez.QKSMS.R;
-import com.moez.QKSMS.common.DonationManager;
 import com.moez.QKSMS.common.LiveViewManager;
 import com.moez.QKSMS.common.QKRateSnack;
 import com.moez.QKSMS.common.google.DraftCache;
@@ -211,7 +210,6 @@ public class MainActivity extends QKActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        DonationManager.getInstance(this).destroy();
     }
 
     @Override

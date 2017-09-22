@@ -24,6 +24,7 @@
         android:title="@string/menu_delete_failed" />
 
     <item
-        android:id="@+id/menu_done"
+        android:id="@+id/menu_done" 
         android:title="@string/menu_done" />
+
 </menu>
